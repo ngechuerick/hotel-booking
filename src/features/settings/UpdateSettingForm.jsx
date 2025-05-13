@@ -16,8 +16,6 @@ function UpdateSettingsForm() {
     } = {},
   } = useSettings();
 
-  console.log(breakFastPrice);
-
   const { isUpdating, updateSetting } = useUpdateSetting();
 
   function handleUpdate(e, field) {

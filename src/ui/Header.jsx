@@ -6,6 +6,11 @@ const StyledHeader = styled.header`
   background-color: orange;
   padding: 1.2rem 4.8rem;
   background-color: var(--color-grey-0);
+
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: flex-end;
 `;
 
 function Header() {
